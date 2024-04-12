@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/front/pages_themes/pages.css">
+    <title>LocExpress</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="" class="logo">QuizPro</a>
+        
+        <nav class="navbar">
+            <a href="/front/index.html" style="--i:1;">Accueil</a>
+            <a href="/front/themes.html" style="--i:3;" class="active">Themes</a>
+            <a href="/front/qsn.html" style="--i:3;">Qui-sommes-nous ?</a>
+            <a href="/front/contact.html" style="--i:4;">Contact</a>
+            <a href="/front/compte.html" style="--i:3;">Mon compte</a>
+        </nav>
+        
+        <div class="reseau">
+            <a href="" style="--i:1;"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="" style="--i:2;"><i class='bx bxl-twitter'></i></a>
+            <a href="" style="--i:3;"><i class='bx bxl-facebook'></i></a>
+        </div>
+    </header>
+    
+    <div class="container-quiz">
+        <section class="quiz-section">
+
+            <header class="header">
+                <a href="" class="logo">QuizPro</a>
+            
+            <nav class="navbar">
+                <a href="/front/index.html" style="--i:1;">Accueil</a>
+                <a href="/front/themes.html" style="--i:3;" class="active">Themes</a>
+                <a href="/front/qsn.html" style="--i:3;">Qui-sommes-nous ?</a>
+                <a href="/front/contact.html" style="--i:4;">Contact</a>
+                <a href="/front/compte.html" style="--i:3;">Mon compte</a>
+            </nav>
+            
+            <div class="reseau">
+                <a href="" style="--i:1;"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="" style="--i:2;"><i class='bx bxl-twitter'></i></a>
+                <a href="" style="--i:3;"><i class='bx bxl-facebook'></i></a>
+            </div>
+        </header>
+        
+             <div class="quiz-box">
+                <h1>Quiz</h1>
+                <div class="quiz-header">
+                    <span class="question-total">Question 1 / 5 </span>
+                    <span class="header-score">Score: 0 / 5</span>
+                </div>
+                <h2 class="question-text">Le model "z1" appartient à quel marque de voiture ?</h2>
+
+                 <div class="option-list">
+
+                    <!-- <div class="option">
+                        <span>A. Mercedes</span>
+                    </div>
+
+                    <div class="option">
+                        <span>B. Porsche</span>
+                    </div>
+
+                    <div class="option">
+                        <span>C. Peugeot</span>
+                    </div>
+
+                    <div class="option">
+                        <span>D. BMW</span>
+                    </div> -->
+                </div> 
+                <div class="quiz-footer">
+                    <div id="countdown">Temps restant : 10</div>
+                    <button class="next-btn" id="startButton2">Suivant</button>
+
+                </div>
+            </div>
+
+                 <div class="result-box">
+                    <h2>Quiz Result !</h2>
+
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        
+                        <span class="score-text">Votre Score : 0 / 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="restart-btn">Restart</button>
+                        <button class="retour-accueil-btn">Retour</button>
+                    </div>
+                </div> 
+
+        </section> 
+
+    
+    
+    
+    
+        
+        <section class="home">
+    <div class="popup-info">
+        <h2>C'est parti !</h2>
+        <img src="/front/images/celebrite.jpg" alt="sport" width="100%">
+        <p class="info">Bienvenue sur notre quiz</p>
+<p class="info">Plongez dans le monde des célébrités avec notre quiz divertissant !</p>
+<p class="info">Testez vos connaissances sur les stars du cinéma, de la musique et bien plus encore.</p>
+<p class="info">Que les flashs crépitent, que la célébrité commence ! 🌟</p>
+
+        
+        
+        <div class="btn-group">
+            <a href="/front/themes.html">
+                <button class="info-btn btn-exit">Retour</button>
+            </a>
+            <button class="info-btn btn-continue" id="startButton">Continue</button>
+        </div>
+    </div>
+    <div class="cercle"></div>
+    <div class="cercle2"></div>
+</section>
+
+<div id="message"></div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Temps écoulé !</p>
+
+            <div class="buttons-modal">
+            <button class="restart-btn2">Restart</button>
+            <button class="retour-accueil-btn2" onclick="closeModal()">Retour</button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</main>
+
+    <script src="/front/questions/qCelebrite.js"></script>
+    <script src="/front/script.js"></script>
+</body>
+</html>

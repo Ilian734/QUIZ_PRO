@@ -1,0 +1,31 @@
+# QuizPro
+ 
+QuizPro est une plateforme en ligne dédiée aux jeux de quiz, offrant une variété de thèmes pour stimuler l'esprit et divertir les utilisateurs de tous âges.
+ 
+## Description
+ 
+Testez vos connaissances dans des sujets allant de la culture générale aux domaines spécifiques tels que le cinéma, la musique, l'histoire et bien plus encore. Notre mission est de fournir une expérience divertissante et éducative à nos utilisateurs, tout en favorisant le partage et la compétition amicale.
+ 
+## Fonctionnalités
+- Accès à de différents thèmes de Quiz.
+- Possibilité de créer un compte utilisateur.
+- Interface conviviale et intuitive pour une expérience utilisateur fluide.
+- Affichage du score à chaque fin de Quiz.
+ 
+ 
+## Comment commencer
+ 
+1. Cloner le dépôt GitHub : `git clone https://github.com/votre-utilisateur/quizpro.git`
+2. Naviguer vers le répertoire du projet : `cd quizpro`
+3. Ouvrir le fichier `index.html` dans votre navigateur web préféré.
+ 
+## Contributions
+ 
+Les contributions sont les bienvenues ! Si vous souhaitez contribuer à l'amélioration de QuizPro, veuillez suivre ces étapes :
+ 
+1. Forker le projet (https://github.com/votre-utilisateur/quizpro/fork)
+2. Créer votre branche de fonctionnalité (`git checkout -b feature/Amelioration`)
+3. Valider vos modifications (`git commit -am 'Ajout de fonctionnalité'`)
+4. Pousser vers la branche (`git push origin feature/Amelioration`)
+5. Créer une nouvelle demande de tirage
+ 
